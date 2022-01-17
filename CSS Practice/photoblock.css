@@ -1,0 +1,17 @@
+img {
+  margin: 1.3%;
+  width: 30%;
+  height: 30%;
+
+  display: inline-block;
+}
+nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  width: 33%;
+  margin-bottom: 3%;
+  margin-left: 1.3%;
+  padding-bottom: 20px 0;
+  border-bottom: 2px solid rgba(99, 121, 99, 0.377);
+}

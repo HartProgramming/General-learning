@@ -1,0 +1,40 @@
+html {
+  font-size: 40px;
+}
+section {
+  width: 17rem;
+  height: 13rem;
+  position: relative;
+}
+
+div p {
+  margin: auto;
+}
+div {
+  font-size: 20px;
+  width: 30em;
+  height: 5em;
+  border: 0.5em solid gold;
+  margin: auto;
+  margin-top: 1em;
+  padding-bottom: 0.5em;
+  position: relative;
+}
+#rgba {
+  background-color: rgb(56, 134, 86, 0.8);
+  position: absolute;
+  top: 5rem;
+  height: 5rem;
+}
+#opacity {
+  background-color: yellow;
+  opacity: 0.5;
+  position: absolute;
+  top: 10rem;
+  transition: margin-left 2s;
+}
+#opacity:hover {
+  background-color: blue;
+  border-radius: 20%;
+  margin-left: 25px;
+}

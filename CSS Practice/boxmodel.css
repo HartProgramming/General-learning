@@ -1,0 +1,51 @@
+body {
+}
+h2 {
+  font-size: 2em;
+}
+span {
+  background-color: purple;
+  color: gold;
+  border: 3px solid black;
+  width: 5%;
+  margin: 1em;
+}
+
+section {
+  border-width: 95%;
+  background-color: blue;
+  border-radius: 15%;
+  width: 800px;
+  height: 800px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+  font-size: 20px;
+  width: 30em;
+  height: 15em;
+}
+
+#one {
+  padding-left: 5%;
+  background-color: orange;
+  color: blue;
+  border-style: dotted;
+}
+
+#two {
+  background-color: red;
+  color: gold;
+  border-style: dashed;
+  border-color: brown;
+  border-left: 5px dotted green;
+  padding: 0.5em 0.5em;
+  margin: 0.5em;
+}
+
+#three {
+  border: 10px dotted black;
+  background-color: white;
+  color: black;
+  margin: 0.5em;
+}

@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  color: white;
+}
+section {
+  background-color: teal;
+  margin: auto;
+  width: 80%;
+  height: 1000px;
+  background-image: url(stars.jpeg);
+
+  background-size: cover;
+  background-position: right;
+  background-repeat: repeat;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}

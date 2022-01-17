@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Race Registration</h1>
+
+    <form action="/race">
+        <p>
+            <label for="first">First Name</label>
+            <input type="text" name="first" id="first" placeholder="John" required>
+            <label for="last">Last Name</label>
+            <input type="text" name="last" id="last" placeholder="Doe" required>
+        </p>
+        <p>Select a Race Type</p>
+        <p>
+            <label for="race_type">Short Race</label>
+            <input type="radio" name="length" id="race_type" value="short">
+        </p>
+        <p>
+            <label for="med">Medium Race</label>
+            <input type="radio" name="length" id="med" value="medium">
+        </p>
+        <p>
+            <label for="full">Full Race</label>
+            <input type="radio" name="length" id="full" value="full">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="pass">Password</label>
+            <input type="text" name="password" id="pass" required>
+        </p>
+        <p>
+            <label for="age">Select Age Group</label>
+            <select name="age" id="age" required>
+                <option value="teen">under 18</option>
+                <option value="ya">18-30</option>
+                <option value="adult">30-40</option>
+                <option value="old">40-60</option>
+                <option value="wise">60 and older</option>
+            </select>
+        </p>
+        <button>Register</button>
+    </form>
+
+</body>
+
+</html>

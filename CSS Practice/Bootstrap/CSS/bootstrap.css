@@ -1,0 +1,11 @@
+.btn-primary {
+  background-color: blue;
+}
+.badge-light {
+  background-color: gray;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}

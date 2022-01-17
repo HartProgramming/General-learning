@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(10, 100, 100);
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+#signup {
+  color: white;
+  background-color: black;
+}
+
+button {
+  color: blue;
+  background-color: orange;
+}
+
+span {
+  color: yellow;
+}
+
+.tag {
+  color: black;
+  background-color: white;
+}
+
+.post a {
+  color: rgb(180, 217, 238);
+}
+
+footer a {
+  color: violet;
+}
+
+h2 + button {
+  color: wheat;
+  font-size: 40px;
+}
+input[type="password"] {
+  color: blue;
+}
+
+a {
+  color: turquoise;
+}
+
+button:hover {
+  background-color: red;
+}
+
+.post button:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.post button:active {
+  background-color: rgb(52, 218, 218);
+}
+
+.post.post:nth-of-type(2n) {
+  background-color: blue;
+}
+
+h2::first-letter {
+  font-size: 40px;
+}
+
+p::first-line {
+  color: purple;
+}
+
+p::selection {
+  background-color: yellow;
+}

@@ -1,0 +1,29 @@
+body {
+  background-color: rgba(17, 46, 43, 1);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+button {
+  color: orange;
+  text-align: center;
+  width: 100px;
+  height: 55px;
+  margin: 27.5px 0 0 -50px;
+  display: block;
+  position: absolute;
+  font-family: 40px;
+  top: 50%;
+  left: 50%;
+  transition: 0.15s;
+  border: 1px solid orange;
+  background-color: rgba(17, 46, 43, 1);
+}
+button:hover {
+  border: 1.2px solid yellow;
+  background-color: rgba(17, 46, 43, 0.3);
+  color: yellow;
+  transform: translateY(-1.5px);
+  box-shadow: 0 0.5em 0.5em -0.38em yellow;
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  text-align: center;
+}
+section h3 {
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+}
+#one {
+  margin: auto;
+  position: relative;
+}
+section div {
+  background-color: red;
+  border: 5px solid black;
+  display: inline-block;
+  margin: 5%;
+  position: relative;
+}
+div img {
+  position: relative;
+  width: 10em;
+  height: 10em;
+}
+
+img {
+  border-radius: 0%;
+  transition: border-radius 1s, transform 2s;
+}
+img:hover {
+  border-radius: 10%;
+  transform: scale(1.5);
+  margin: 20px;
+  transition-timing-function: ease-in;
+}

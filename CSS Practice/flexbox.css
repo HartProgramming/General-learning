@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  width: 90%;
+  background-color: purple;
+  height: 600px;
+  margin: 0 auto;
+  border: 5px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+#container div {
+  width: 200px;
+  height: 200px;
+  font-size: 6em;
+  flex-basis: 400px;
+}
+
+#container div:nth-of-type(3) {
+  align-self: flex-end;
+}
+
+div:nth-of-type(1) {
+  flex-grow: 1;
+}

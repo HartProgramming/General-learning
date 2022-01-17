@@ -1,0 +1,36 @@
+<form action="birds">
+    <input type="checkbox" name="agree" id="agree" checked>
+    <label for="agree">I agree to terms</label>
+    <p>
+    <h1>Choose a Shirt Size</h1>
+    <label for="xs">XS:</label>
+    <input type="radio" name="size" id="xs" value="extrasmall">
+    <label for="s">S:</label>
+    <input type="radio" name="size" id="s" value="small">
+    <label for="m">M</label>
+    <input type="radio" name="size" id="m" value="medium">
+    </p>
+    <p>
+        <label for="color">Please select a color</label>
+        <select name="color" id="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="white" selected>White</option>
+        </select>
+    </p>
+    <p>
+        <label for="bright">Please select brightness of color</label>
+        <input type="range" name="bright" id="range" min="1" max="10" step="1" value="5">
+    </p>
+    <p>
+        <label for="num">Enter a Number</label>
+        <input type="number" step="1" min="1" max="10" value="5">
+    </p>
+    <p>
+        <label for="text">Fill out additional information:</label>
+        <br>
+        <textarea name="text" id="text" cols="30" rows="10" placeholder="Additional Info..."></textarea>
+    </p>
+    <button>Submit</button>
+
+</form>

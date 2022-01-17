@@ -1,0 +1,53 @@
+nav {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 650;
+  font-family: fantasy;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline rgb(66, 66, 5);
+  font-family: monospace;
+}
+ul {
+  border-bottom: 2px solid red;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+ul,
+li {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline royalblue;
+  color: crimson;
+
+  transition: 0.3s;
+}
+
+h1:hover {
+  text-decoration: none;
+  color: rgb(0, 139, 69);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav,
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
